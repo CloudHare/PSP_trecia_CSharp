@@ -22,10 +22,9 @@ namespace PSP_trecia_CSharp
             }
         }
 
-        public string buyGruel()
+        public void buyGruel()
         {
             Console.WriteLine("You buy some gruel. It didn't even cost anything. Maybe you're the one who should have gotten paid to take it?");
-            return "gruel";
         }
     }
 }
